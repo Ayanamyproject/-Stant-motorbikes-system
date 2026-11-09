@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<modded_inputs>
+	<inputs>
+		<actions>
+			<input name="UAStuntLeanForward" loc="Stunt Bikes: lean forward (stoppie / nose down)" />
+			<input name="UAStuntLeanBack" loc="Stunt Bikes: lean back (pop a wheelie / nose up)" />
+		</actions>
+	</inputs>
+	<preset>
+		<input name="UAStuntLeanForward">
+			<btn name="kUp" />
+		</input>
+		<input name="UAStuntLeanBack">
+			<btn name="kDown" />
+		</input>
+	</preset>
+</modded_inputs>

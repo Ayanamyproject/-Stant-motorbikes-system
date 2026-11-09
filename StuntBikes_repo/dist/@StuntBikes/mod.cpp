@@ -1,0 +1,10 @@
+name = "Stunt Bikes";
+picture = "";
+logo = "";
+logoSmall = "";
+logoOver = "";
+tooltip = "Realistic wheelies, stoppies and flips for vanilla DayZ motorbikes";
+overview = "Throttle-controlled wheelies with a balance point, front-brake stoppies, air control with gas / rear brake / body lean, safe landings. Server and client stay in sync during stunts.";
+action = "";
+author = "V";
+version = "1.0";
