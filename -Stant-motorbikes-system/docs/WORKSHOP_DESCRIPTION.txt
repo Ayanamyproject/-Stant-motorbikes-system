@@ -1,0 +1,61 @@
+[h1]Stunt Bikes — стант для мотоциклов DayZ[/h1]
+
+Ванильные мотоциклы DayZ учатся вилли, стоппи и трюкам в воздухе. Только скрипты, новых моделей нет. Работает в одиночной игре и на серверах, байк не дёргается в мультиплеере.
+
+[h2]Три уровня — справится любой[/h2]
+Газ сам по себе перёд не поднимает: трюк начинается только по стрелке.
+
+[list]
+[*][b]Новичок[/b] — держи [b]↑[/b], и байк встаёт на заднее колесо и сам держит угол. Держи [b]↓[/b] — стоппи. Отпустил — колесо мягко опускается. Перевернуться нельзя.
+[*][b]Райдер[/b] — [b]↑[/b] подбрасывает перёд, дальше угол держишь сам: ↑ выше, ↓ ниже. Держи метку в зелёной зоне полоски на экране. Залез в красную — байк поймают и вернут.
+[*][b]Профи[/b] — физика из MX Bikes: двигатель, сцепление, вес гонщика, пампинг. Перегазуешь — перевернёшься.
+[/list]
+
+Уровень меняется клавишей [b]End[/b] прямо в игре, выбор запоминается.
+
+[h2]Управление[/h2]
+[table]
+[tr][th]Клавиша[/th][th]Действие[/th][/tr]
+[tr][td]↑[/td][td]Вилли, в воздухе — нос вверх[/td][/tr]
+[tr][td]↓[/td][td]Стоппи, в воздухе — нос вниз[/td][/tr]
+[tr][td]End[/td][td]Сменить уровень[/td][/tr]
+[tr][td]Правый Shift[/td][td]Сцепление (Профи)[/td][/tr]
+[tr][td]Правый Ctrl[/td][td]Пампинг (Профи)[/td][/tr]
+[/table]
+Клавиши меняются в настройках управления, раздел Stunt Bikes.
+
+[h2]Ещё[/h2]
+[list]
+[*]Полоска угла справа на экране: зелёная зона — хорошо, красная — опасно.
+[*]В воздухе байк сам выравнивается к приземлению (Новичок и Райдер).
+[*]Мягкие посадки: жёсткое приземление на колёса не сбрасывает гонщика.
+[*]Стант-парк: сервер может сам расставить рампы при старте.
+[/list]
+
+[h2]Для владельцев серверов[/h2]
+[list]
+[*]Мод нужен и на сервере, и у игроков: [b]-mod=@StuntBikes[/b]. Ключ [b]StuntBikes.bikey[/b] — в папку keys сервера.
+[*]При первом запуске создаётся [b]profiles/StuntBikes/config.json[/b]. В нём уровень по умолчанию ([b]StuntMode[/b]: 0 Новичок, 1 Райдер, 2 Профи), запрет смены уровня игроками, углы, скорости и физика.
+[*]Настройки сервер сам рассылает игрокам при входе.
+[/list]
+
+[h2]Ограничения[/h2]
+[list]
+[*]Поза гонщика не меняется: в DayZ нет анимаций для вилли.
+[*]Положение байка во время трюка задаёт клиент игрока. Для стант- и RP-серверов это нормально, на PvP учитывайте.
+[/list]
+
+Исходники и баг-репорты: [url=https://github.com/Ayanamyproject/-Stant-motorbikes-system]GitHub[/url]
+
+[hr][/hr]
+
+[h1]Stunt Bikes — stunts for DayZ motorbikes[/h1]
+Wheelies, stoppies and air control for the vanilla DayZ motorbikes. Scripts only, offline and multiplayer, no rubber-banding.
+
+[list]
+[*][b]Novice[/b] — hold UP for a wheelie, DOWN for a stoppie. The bike holds the angle itself and cannot loop out.
+[*][b]Rider[/b] — UP pops the front, then you hold the angle in the green zone of the HUD bar. The red zone catches you.
+[*][b]Pro[/b] — MX Bikes physics: engine, clutch, rider weight, pumping. You can loop out.
+[/list]
+Keys: UP / DOWN — wheelie / stoppie, End — change level, Right Shift — clutch, Right Ctrl — pump.
+Servers: load the mod on the server and the clients, put StuntBikes.bikey into the server keys folder. Settings: profiles/StuntBikes/config.json (StuntMode 0/1/2 sets the default level).

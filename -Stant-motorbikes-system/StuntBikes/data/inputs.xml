@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<modded_inputs>
+	<inputs>
+		<actions>
+			<input name="UAStuntLeanForward" loc="Stunt Bikes: nose up (wheelie / lean back)" />
+			<input name="UAStuntLeanBack" loc="Stunt Bikes: nose down (stoppie / lean forward)" />
+			<input name="UAStuntClutch" loc="Stunt Bikes: clutch (hold, rev, release = clutch wheelie)" />
+			<input name="UAStuntPump" loc="Stunt Bikes: pump / crouch (crouch before a lip, release to pop)" />
+			<input name="UAStuntLevel" loc="Stunt Bikes: change level (novice / rider / pro)" />
+		</actions>
+	</inputs>
+	<preset>
+		<input name="UAStuntLeanForward">
+			<btn name="kUp" />
+		</input>
+		<input name="UAStuntLeanBack">
+			<btn name="kDown" />
+		</input>
+		<input name="UAStuntClutch">
+			<btn name="kRShift" />
+		</input>
+		<input name="UAStuntPump">
+			<btn name="kRControl" />
+		</input>
+		<input name="UAStuntLevel">
+			<btn name="kEnd" />
+		</input>
+	</preset>
+</modded_inputs>
